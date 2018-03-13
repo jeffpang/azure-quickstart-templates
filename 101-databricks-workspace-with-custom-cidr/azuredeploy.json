@@ -32,7 +32,7 @@
       "type": "Microsoft.Databricks/workspaces",
       "name": "[parameters('workspaceName')]",
       "location": "[resourceGroup().location]",
-      "apiVersion": "2018-04-01",
+      "apiVersion": "2018-03-01",
       "sku": {
         "name": "[parameters('pricingTier')]"
       },
